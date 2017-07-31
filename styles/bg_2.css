@@ -1,0 +1,25 @@
+body {
+	background: url(../images/bg_2.jpg) repeat;
+}
+.wrapper .content .form-wrapper .links ul li ul li:hover {
+	background: #2DCC70;
+}
+.wrapper .content .form-wrapper button {
+	background: #2DCC70;
+}
+.wrapper .content .form-wrapper button:hover{		
+	background: #32BB6C;
+}	
+.wrapper .content .form-wrapper button:active,
+.wrapper .content .form-wrapper button:focus{   
+	background: #32BB6C;    
+}
+.wrapper .content .form-wrapper button:before {
+	border-color: transparent #2DCC70 transparent;
+}
+.wrapper .content .form-wrapper button:hover:before{
+	border-right-color: #32BB6C;
+}
+.wrapper .content .form-wrapper button:focus:before{
+	border-right-color: #32BB6C;
+}   
