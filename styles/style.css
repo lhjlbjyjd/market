@@ -16,7 +16,7 @@ html {
     color: #212121;
     border-bottom: 1px solid #e0e0e0;
     transition: border-color 0.2s ease;
-    display: -webkit-inline-box;
+    display: inline-block;
     box-shadow: 0 2px 5px rgba(136, 136, 136, 0.35);
 }
 
@@ -63,6 +63,10 @@ html {
 .search-item{
     height: 225px;
     width: 100%;
-    padding: 10px 5px;
-    display: inline;
+    margin: 10px 5px;
+    display: inline-block;
+}
+
+.search-item-additional-data{
+    height: 225px;
 }
