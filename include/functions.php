@@ -1,6 +1,5 @@
 <?php
 
-
 function get_products()
 {
   global $link;
