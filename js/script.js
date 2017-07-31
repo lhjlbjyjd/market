@@ -2,6 +2,7 @@ $(document).ready(function() {
     $('#search-form').submit(function(e){
         console.log("go");
         e.preventDefault();
+        $('#search-box').blur();
         $.ajax({
             type: 'GET',
             cache: false,
